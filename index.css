@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(imgbackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.square {
+    width: 500px;
+    border: 5px solid #d00000;
+    margin: 50px auto;
+    background-color: #001f54;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.title-score {
+    color: white;
+    font-size: 39px;
+    margin: 20px 0 13px 20px;
+    font-family: 'Coming Soon', cursive;
+    
+}
+
+#counter-home, #counter-guest {
+    width: 175px;
+    height: 120px;
+    background-color: black;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 15px;
+    margin: 0 0 5px 0;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.add-btn {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    background-color: #0a1128;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    margin: 10px 10px 0 10px;
+}
+
+#reset-btn {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 50px auto 20px auto;
+    background-color: #001f54;
+    font-family: 'Coming Soon', cursive;
+    color: #f0c808;
+    border: 2px solid #d00000;
+}
+
+#history-btn {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 0px auto 50px auto;
+    background-color: #001f54;
+    font-family: 'Coming Soon', cursive;
+    color: #f0c808;
+    border: 2px solid #d00000;
+}
+
+#prev-msg {
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    margin-left: 20px;
+}
